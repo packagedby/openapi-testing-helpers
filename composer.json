@@ -1,10 +1,14 @@
 {
-    "name": "nathan/openapi-testing-helpers",
+    "name": "packagedby/openapi-testing-helpers",
     "type": "library",
     "authors": [
         {
             "name": "Nathan Dunn",
             "email": "nathan@packagedby.com"
+        },
+        {
+            "name": "Michael Peacock",
+            "email": "michael@packagedby.com"
         }
     ],
     "require": {}
