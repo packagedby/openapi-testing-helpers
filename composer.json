@@ -1,0 +1,11 @@
+{
+    "name": "nathan/openapi-testing-helpers",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nathan Dunn",
+            "email": "nathan@packagedby.com"
+        }
+    ],
+    "require": {}
+}
