@@ -1,5 +1,6 @@
 {
     "name": "packagedby/openapi-testing-helpers",
+    "description": "A small library to validate an OpenAPI specification from Laravel feature tests",
     "type": "library",
     "authors": [
         {
