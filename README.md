@@ -1,6 +1,6 @@
 # OpenAPI Testing Helpers
 
-This library is a small trait which wraps around around [osteel/openapi-httpfoundation-testing](https://github.com/osteel/openapi-httpfoundation-testing).
+This library is a small trait which wraps around the [osteel/openapi-httpfoundation-testing](https://github.com/osteel/openapi-httpfoundation-testing) library.
 
 ## Usage
 
