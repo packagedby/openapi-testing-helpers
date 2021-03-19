@@ -3,14 +3,14 @@
 namespace PackagedBy\OpenApiTestingHelpers;
 
 use Illuminate\Support\Arr;
+use Illuminate\Testing\TestResponse;
 use Osteel\OpenApi\Testing\ResponseValidatorBuilder;
 
 trait OpenApiValidation
 {
-    public function validateOpenApiSpec(string $method, string $uri, array $data = [])
+    public function validateOpenApiSpec(string $method, string $uri, TestResponse $response)
     {
         $path = $this->openApiSpecPath;
-        $response = $this->json($method, $uri, $data);
 
         if (!file_exists($path)) {
             $this->markTestSkipped('No OpenAPI spec found');
